@@ -1,0 +1,106 @@
+*, 
+*:after, 
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  padding: 0;
+  overflow: auto;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.bio {
+  border: 2px solid #eee;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.bio h2 {
+  text-align: center;
+  margin: 0;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.bio-content {
+  text-align: left;
+  padding: 1rem;
+}
+
+.spidey-pic {
+/*  margin-top: 50px;
+  width: 150px;
+  height: auto;*/
+}
+
+.container {
+/*  width: 600px;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+section h2 {
+  margin: 0 0 0.75rem;
+}
+
+
+/* Style nav here (floats) */
+.nav-bar {
+  background-color: #333333;
+  height: 60px;
+  /*margin-bottom: 30px;*/
+  overflow: auto;
+  color: white;
+  padding: 0 30px;
+}
+
+.title {
+  margin: 0;
+  line-height: 60px;
+  float: left;
+}
+
+.nav-list {
+  float: right;
+  margin: 0;
+  line-height: 60px;
+}
+
+.nav-item {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+/* Style layout (removed centered container & spidey pic) */
+html, body {
+  /*height: 100%;*/
+}
+
+.container {
+  /*height: 100%;*/
+}
+
